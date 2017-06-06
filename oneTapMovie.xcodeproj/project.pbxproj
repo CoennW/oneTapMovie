@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		F58FE6791EE7396A009EF1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE6781EE7396A009EF1DC /* AppDelegate.swift */; };
-		F58FE67B1EE7396A009EF1DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE67A1EE7396A009EF1DC /* ViewController.swift */; };
 		F58FE67E1EE7396A009EF1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58FE67C1EE7396A009EF1DC /* Main.storyboard */; };
 		F58FE6801EE7396A009EF1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58FE67F1EE7396A009EF1DC /* Assets.xcassets */; };
 		F58FE6831EE7396A009EF1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58FE6811EE7396A009EF1DC /* LaunchScreen.storyboard */; };
 		F58FE68E1EE7396B009EF1DC /* oneTapMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE68D1EE7396B009EF1DC /* oneTapMovieTests.swift */; };
 		F58FE6991EE7396B009EF1DC /* oneTapMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE6981EE7396B009EF1DC /* oneTapMovieUITests.swift */; };
+		F58FE6A91EE74192009EF1DC /* AddBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE6A81EE74192009EF1DC /* AddBackground.swift */; };
+		F58FE6AB1EE74910009EF1DC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE6AA1EE74910009EF1DC /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		F58FE6751EE7396A009EF1DC /* oneTapMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneTapMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58FE6781EE7396A009EF1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F58FE67A1EE7396A009EF1DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F58FE67D1EE7396A009EF1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F58FE67F1EE7396A009EF1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58FE6821EE7396A009EF1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		F58FE6941EE7396B009EF1DC /* oneTapMovieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneTapMovieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58FE6981EE7396B009EF1DC /* oneTapMovieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneTapMovieUITests.swift; sourceTree = "<group>"; };
 		F58FE69A1EE7396B009EF1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58FE6A81EE74192009EF1DC /* AddBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddBackground.swift; path = ../AddBackground.swift; sourceTree = "<group>"; };
+		F58FE6AA1EE74910009EF1DC /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +99,10 @@
 		F58FE6771EE7396A009EF1DC /* oneTapMovie */ = {
 			isa = PBXGroup;
 			children = (
+				F58FE6A81EE74192009EF1DC /* AddBackground.swift */,
 				F58FE6781EE7396A009EF1DC /* AppDelegate.swift */,
-				F58FE67A1EE7396A009EF1DC /* ViewController.swift */,
 				F58FE67C1EE7396A009EF1DC /* Main.storyboard */,
+				F58FE6AA1EE74910009EF1DC /* SearchViewController.swift */,
 				F58FE67F1EE7396A009EF1DC /* Assets.xcassets */,
 				F58FE6811EE7396A009EF1DC /* LaunchScreen.storyboard */,
 				F58FE6841EE7396A009EF1DC /* Info.plist */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F58FE67B1EE7396A009EF1DC /* ViewController.swift in Sources */,
+				F58FE6AB1EE74910009EF1DC /* SearchViewController.swift in Sources */,
 				F58FE6791EE7396A009EF1DC /* AppDelegate.swift in Sources */,
+				F58FE6A91EE74192009EF1DC /* AddBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
