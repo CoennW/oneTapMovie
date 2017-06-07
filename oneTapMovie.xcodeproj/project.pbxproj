@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24830D47C2F3BB42CEE0C533 /* Pods_oneTapMovieUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F926827A1D8BDB1DCDDDC69D /* Pods_oneTapMovieUITests.framework */; };
+		87DBE3BA883C966782AA238B /* Pods_oneTapMovie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D9CA211EE0FCE5831AF96D /* Pods_oneTapMovie.framework */; };
+		D34DE910831A476E1644289A /* Pods_oneTapMovieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20716CE86918052A0248E2B2 /* Pods_oneTapMovieTests.framework */; };
+		F5754ABF1EE8554B00AFC100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5754ABD1EE8554B00AFC100 /* Main.storyboard */; };
+		F5754AC11EE8606C00AFC100 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5754AC01EE8606C00AFC100 /* ResultsViewController.swift */; };
+		F5754AC31EE8664C00AFC100 /* SpinningWheelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5754AC21EE8664C00AFC100 /* SpinningWheelViewController.swift */; };
 		F58FE6791EE7396A009EF1DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE6781EE7396A009EF1DC /* AppDelegate.swift */; };
-		F58FE67E1EE7396A009EF1DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58FE67C1EE7396A009EF1DC /* Main.storyboard */; };
 		F58FE6801EE7396A009EF1DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58FE67F1EE7396A009EF1DC /* Assets.xcassets */; };
 		F58FE6831EE7396A009EF1DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58FE6811EE7396A009EF1DC /* LaunchScreen.storyboard */; };
 		F58FE68E1EE7396B009EF1DC /* oneTapMovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FE68D1EE7396B009EF1DC /* oneTapMovieTests.swift */; };
@@ -35,9 +40,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19E3C09011677A2EAAD79BFA /* Pods-oneTapMovieUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneTapMovieUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oneTapMovieUITests/Pods-oneTapMovieUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C0EE41FA1EBC109570810CC /* Pods-oneTapMovieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneTapMovieTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oneTapMovieTests/Pods-oneTapMovieTests.release.xcconfig"; sourceTree = "<group>"; };
+		20716CE86918052A0248E2B2 /* Pods_oneTapMovieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneTapMovieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F31943DEE168A9F139EA680 /* Pods-oneTapMovie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneTapMovie.release.xcconfig"; path = "Pods/Target Support Files/Pods-oneTapMovie/Pods-oneTapMovie.release.xcconfig"; sourceTree = "<group>"; };
+		6EF6FC338AD7A6606D1B4A25 /* Pods-oneTapMovieUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneTapMovieUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-oneTapMovieUITests/Pods-oneTapMovieUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73970FCF6B7D2692FEAEAA3C /* Pods-oneTapMovie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneTapMovie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oneTapMovie/Pods-oneTapMovie.debug.xcconfig"; sourceTree = "<group>"; };
+		79D9CA211EE0FCE5831AF96D /* Pods_oneTapMovie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneTapMovie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D97F061590F154980708D7 /* Pods-oneTapMovieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneTapMovieTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-oneTapMovieTests/Pods-oneTapMovieTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F5754ABE1EE8554B00AFC100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5754AC01EE8606C00AFC100 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		F5754AC21EE8664C00AFC100 /* SpinningWheelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpinningWheelViewController.swift; sourceTree = "<group>"; };
 		F58FE6751EE7396A009EF1DC /* oneTapMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oneTapMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58FE6781EE7396A009EF1DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F58FE67D1EE7396A009EF1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F58FE67F1EE7396A009EF1DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F58FE6821EE7396A009EF1DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F58FE6841EE7396A009EF1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,8 @@
 		F58FE69A1EE7396B009EF1DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F58FE6A81EE74192009EF1DC /* AddBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddBackground.swift; path = ../AddBackground.swift; sourceTree = "<group>"; };
 		F58FE6AA1EE74910009EF1DC /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F5CBBA2D1EE80C3200C86752 /* TMDBSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TMDBSwift.framework; path = "../../Library/Developer/Xcode/DerivedData/oneTapMovie-dfeyzayyhxquxidaxoyggtcgqztc/Build/Products/Debug-iphonesimulator/TMDBSwift/TMDBSwift.framework"; sourceTree = "<group>"; };
+		F926827A1D8BDB1DCDDDC69D /* Pods_oneTapMovieUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneTapMovieUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DBE3BA883C966782AA238B /* Pods_oneTapMovie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D34DE910831A476E1644289A /* Pods_oneTapMovieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24830D47C2F3BB42CEE0C533 /* Pods_oneTapMovieUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0624B0BCAAD74D88BDA544D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBBA2D1EE80C3200C86752 /* TMDBSwift.framework */,
+				79D9CA211EE0FCE5831AF96D /* Pods_oneTapMovie.framework */,
+				20716CE86918052A0248E2B2 /* Pods_oneTapMovieTests.framework */,
+				F926827A1D8BDB1DCDDDC69D /* Pods_oneTapMovieUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFEF7146314FD9CB309C5711 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73970FCF6B7D2692FEAEAA3C /* Pods-oneTapMovie.debug.xcconfig */,
+				4F31943DEE168A9F139EA680 /* Pods-oneTapMovie.release.xcconfig */,
+				A2D97F061590F154980708D7 /* Pods-oneTapMovieTests.debug.xcconfig */,
+				1C0EE41FA1EBC109570810CC /* Pods-oneTapMovieTests.release.xcconfig */,
+				19E3C09011677A2EAAD79BFA /* Pods-oneTapMovieUITests.debug.xcconfig */,
+				6EF6FC338AD7A6606D1B4A25 /* Pods-oneTapMovieUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F58FE66C1EE7396A009EF1DC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				F58FE68C1EE7396B009EF1DC /* oneTapMovieTests */,
 				F58FE6971EE7396B009EF1DC /* oneTapMovieUITests */,
 				F58FE6761EE7396A009EF1DC /* Products */,
+				BFEF7146314FD9CB309C5711 /* Pods */,
+				0624B0BCAAD74D88BDA544D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +146,10 @@
 			isa = PBXGroup;
 			children = (
 				F58FE6A81EE74192009EF1DC /* AddBackground.swift */,
+				F5754ABD1EE8554B00AFC100 /* Main.storyboard */,
+				F5754AC01EE8606C00AFC100 /* ResultsViewController.swift */,
+				F5754AC21EE8664C00AFC100 /* SpinningWheelViewController.swift */,
 				F58FE6781EE7396A009EF1DC /* AppDelegate.swift */,
-				F58FE67C1EE7396A009EF1DC /* Main.storyboard */,
 				F58FE6AA1EE74910009EF1DC /* SearchViewController.swift */,
 				F58FE67F1EE7396A009EF1DC /* Assets.xcassets */,
 				F58FE6811EE7396A009EF1DC /* LaunchScreen.storyboard */,
@@ -135,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F58FE69D1EE7396B009EF1DC /* Build configuration list for PBXNativeTarget "oneTapMovie" */;
 			buildPhases = (
+				D4B331A473EEA57C180806AC /* [CP] Check Pods Manifest.lock */,
 				F58FE6711EE7396A009EF1DC /* Sources */,
 				F58FE6721EE7396A009EF1DC /* Frameworks */,
 				F58FE6731EE7396A009EF1DC /* Resources */,
+				3EF0939226E9D3C6648A7C76 /* [CP] Embed Pods Frameworks */,
+				0EE99B32C7A6EA4E2D36205F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F58FE6A01EE7396B009EF1DC /* Build configuration list for PBXNativeTarget "oneTapMovieTests" */;
 			buildPhases = (
+				92BAB844E0BDE573CF32EE9E /* [CP] Check Pods Manifest.lock */,
 				F58FE6851EE7396B009EF1DC /* Sources */,
 				F58FE6861EE7396B009EF1DC /* Frameworks */,
 				F58FE6871EE7396B009EF1DC /* Resources */,
+				1BCA462FE829F39600841135 /* [CP] Embed Pods Frameworks */,
+				BB0222E11480996F35C4144B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F58FE6A31EE7396B009EF1DC /* Build configuration list for PBXNativeTarget "oneTapMovieUITests" */;
 			buildPhases = (
+				81181AA077BB5287B6109282 /* [CP] Check Pods Manifest.lock */,
 				F58FE6901EE7396B009EF1DC /* Sources */,
 				F58FE6911EE7396B009EF1DC /* Frameworks */,
 				F58FE6921EE7396B009EF1DC /* Resources */,
+				198A0CAF548DEB31F1741A2B /* [CP] Embed Pods Frameworks */,
+				1E6F0273ECF34E5B206747F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +292,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5754ABF1EE8554B00AFC100 /* Main.storyboard in Resources */,
 				F58FE6831EE7396A009EF1DC /* LaunchScreen.storyboard in Resources */,
 				F58FE6801EE7396A009EF1DC /* Assets.xcassets in Resources */,
-				F58FE67E1EE7396A009EF1DC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +314,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0EE99B32C7A6EA4E2D36205F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oneTapMovie/Pods-oneTapMovie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		198A0CAF548DEB31F1741A2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oneTapMovieUITests/Pods-oneTapMovieUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BCA462FE829F39600841135 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oneTapMovieTests/Pods-oneTapMovieTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E6F0273ECF34E5B206747F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oneTapMovieUITests/Pods-oneTapMovieUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EF0939226E9D3C6648A7C76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oneTapMovie/Pods-oneTapMovie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81181AA077BB5287B6109282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92BAB844E0BDE573CF32EE9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB0222E11480996F35C4144B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-oneTapMovieTests/Pods-oneTapMovieTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B331A473EEA57C180806AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F58FE6711EE7396A009EF1DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5754AC31EE8664C00AFC100 /* SpinningWheelViewController.swift in Sources */,
 				F58FE6AB1EE74910009EF1DC /* SearchViewController.swift in Sources */,
 				F58FE6791EE7396A009EF1DC /* AppDelegate.swift in Sources */,
 				F58FE6A91EE74192009EF1DC /* AddBackground.swift in Sources */,
+				F5754AC11EE8606C00AFC100 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,10 +497,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F58FE67C1EE7396A009EF1DC /* Main.storyboard */ = {
+		F5754ABD1EE8554B00AFC100 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F58FE67D1EE7396A009EF1DC /* Base */,
+				F5754ABE1EE8554B00AFC100 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -414,30 +611,35 @@
 		};
 		F58FE69E1EE7396B009EF1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73970FCF6B7D2692FEAEAA3C /* Pods-oneTapMovie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = oneTapMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fontys.oneTapMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F58FE69F1EE7396B009EF1DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F31943DEE168A9F139EA680 /* Pods-oneTapMovie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = oneTapMovie/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Fontys.oneTapMovie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		F58FE6A11EE7396B009EF1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D97F061590F154980708D7 /* Pods-oneTapMovieTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +654,7 @@
 		};
 		F58FE6A21EE7396B009EF1DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0EE41FA1EBC109570810CC /* Pods-oneTapMovieTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -466,6 +669,7 @@
 		};
 		F58FE6A41EE7396B009EF1DC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E3C09011677A2EAAD79BFA /* Pods-oneTapMovieUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = oneTapMovieUITests/Info.plist;
@@ -479,6 +683,7 @@
 		};
 		F58FE6A51EE7396B009EF1DC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF6FC338AD7A6606D1B4A25 /* Pods-oneTapMovieUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = oneTapMovieUITests/Info.plist;
@@ -509,6 +714,7 @@
 				F58FE69F1EE7396B009EF1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F58FE6A01EE7396B009EF1DC /* Build configuration list for PBXNativeTarget "oneTapMovieTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +723,7 @@
 				F58FE6A21EE7396B009EF1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F58FE6A31EE7396B009EF1DC /* Build configuration list for PBXNativeTarget "oneTapMovieUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +732,7 @@
 				F58FE6A51EE7396B009EF1DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

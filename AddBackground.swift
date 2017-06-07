@@ -32,9 +32,10 @@ extension UIView {
 
 extension UITextField {
     func setBottomBorder() {
+        
         self.borderStyle = .none
         self.layer.backgroundColor = UIColor.white.cgColor
-        
+        self.textAlignment = .center
         self.layer.masksToBounds = false
         self.layer.shadowColor = UIColor.gray.cgColor
         self.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
@@ -42,14 +43,23 @@ extension UITextField {
         self.layer.shadowRadius = 0.0
         self.backgroundColor = UIColor.clear
         self.textColor = UIColor.lightGray
+        
+        self.attributedPlaceholder = NSAttributedString(string: self.placeholder!, attributes: [NSForegroundColorAttributeName: UIColor.lightGray.withAlphaComponent(0.2)])
     }
     
     
     func bottomBorder(textField: UITextField){
         let topBorder = CALayer()
-        topBorder.frame = CGRect(x: 0, y: 25, width: textField.frame.size.width - 10, height: 0.5)
+        topBorder.frame = CGRect(x: 0, y: 25, width: textField.frame.size.width , height: 0.5)
         topBorder.backgroundColor = UIColor.gray.cgColor
         textField.layer.addSublayer(topBorder)
+    }
+}
+
+extension String {
+    func getApiKey() -> String {
+        let apiKey = "279e6330590f5e8788be345bf87321ca"
+        return apiKey
     }
 }
 
